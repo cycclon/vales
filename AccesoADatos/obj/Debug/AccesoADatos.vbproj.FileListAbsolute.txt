@@ -1,0 +1,17 @@
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\AccesoADatos\bin\Debug\AccesoADatos.dll
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\AccesoADatos\bin\Debug\AccesoADatos.pdb
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\AccesoADatos\bin\Debug\AccesoADatos.xml
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\AccesoADatos\bin\Debug\Encriptacion.dll
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\AccesoADatos\bin\Debug\Entidades.dll
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\AccesoADatos\bin\Debug\Entidades.pdb
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\AccesoADatos\bin\Debug\Entidades.xml
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\AccesoADatos\bin\Debug\Encriptacion.pdb
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\AccesoADatos\bin\Debug\Encriptacion.xml
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\AccesoADatos\obj\Debug\AccesoADatos.Resources.resources
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\AccesoADatos\obj\Debug\AccesoADatos.vbproj.GenerateResource.Cache
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\AccesoADatos\obj\Debug\AccesoADatos.dll
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\AccesoADatos\obj\Debug\AccesoADatos.xml
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\AccesoADatos\obj\Debug\AccesoADatos.pdb
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\AccesoADatos\obj\Debug\AccesoADatos.vbproj.AssemblyReference.cache
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\AccesoADatos\obj\Debug\AccesoADatos.vbproj.CoreCompileInputs.cache
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\AccesoADatos\obj\Debug\AccesoADatos.vbproj.CopyComplete

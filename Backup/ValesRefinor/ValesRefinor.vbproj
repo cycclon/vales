@@ -1,0 +1,649 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{837D6D63-E8B3-4A23-B7C3-1FCFC18DC989}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ValesRefinor.My.MyApplication</StartupObject>
+    <RootNamespace>ValesRefinor</RootNamespace>
+    <AssemblyName>ValesRefinor</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <ApplicationIcon>siv.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OptionStrict>On</OptionStrict>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ValesRefinor.xml</DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ValesRefinor.xml</DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DynamicSorting, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DynamicSorting.dll</HintPath>
+    </Reference>
+    <Reference Include="Excepciones, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\PRS\FrameworkPRS\Excepciones.dll</HintPath>
+    </Reference>
+    <Reference Include="libValidacion, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\PRS\FrameworkPRS\libValidacion.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acceso\frmCambiarContraseña.Designer.vb">
+      <DependentUpon>frmCambiarContraseña.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Acceso\frmCambiarContraseña.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Acceso\frmImprimirTarjeta.Designer.vb">
+      <DependentUpon>frmImprimirTarjeta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Acceso\frmImprimirTarjeta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Acceso\frmUsuario.Designer.vb">
+      <DependentUpon>frmUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Acceso\frmUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Acceso\frmNuevoUsuario.Designer.vb">
+      <DependentUpon>frmNuevoUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Acceso\frmNuevoUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Acceso\frmUsuarios.Designer.vb">
+      <DependentUpon>frmUsuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Acceso\frmUsuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Backups\frmBackup.Designer.vb">
+      <DependentUpon>frmBackup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Backups\frmBackup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bitacoras\frmBitacoras.Designer.vb">
+      <DependentUpon>frmBitacoras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bitacoras\frmBitacoras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bitacoras\frmBuscarVale.Designer.vb">
+      <DependentUpon>frmBuscarVale.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bitacoras\frmBuscarVale.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes\frmClientes.Designer.vb">
+      <DependentUpon>frmClientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes\frmClientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes\frmNuevoCliente.Designer.vb">
+      <DependentUpon>frmNuevoCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes\frmNuevoCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes\frmCliente.Designer.vb">
+      <DependentUpon>frmCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes\frmCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Combustibles\frmCombustibles.Designer.vb">
+      <DependentUpon>frmCombustibles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Combustibles\frmCombustibles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuracion\frmConfigurar.Designer.vb">
+      <DependentUpon>frmConfigurar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configuracion\frmConfigurar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controles\ctrlAyuda.Designer.vb">
+      <DependentUpon>ctrlAyuda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\ctrlAyuda.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controles\ctrlBotonMenu.Designer.vb">
+      <DependentUpon>ctrlBotonMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\ctrlBotonMenu.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controles\ctrlCategoriaMenu.Designer.vb">
+      <DependentUpon>ctrlCategoriaMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\ctrlCategoriaMenu.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controles\ctrlInformacion.Designer.vb">
+      <DependentUpon>ctrlInformacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\ctrlInformacion.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controles\ctrlMensaje.Designer.vb">
+      <DependentUpon>ctrlMensaje.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\ctrlMensaje.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controles\ctrlMenu.Designer.vb">
+      <DependentUpon>ctrlMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\ctrlMenu.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Cuentas\frmMovimientos.Designer.vb">
+      <DependentUpon>frmMovimientos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cuentas\frmMovimientos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuentas\frmCuenta.Designer.vb">
+      <DependentUpon>frmCuenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cuentas\frmCuenta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empresa\clsEmpresa.vb" />
+    <Compile Include="Estadisticas\frmEstadisticas.Designer.vb">
+      <DependentUpon>frmEstadisticas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Estadisticas\frmEstadisticas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio\frmInicio.Designer.vb">
+      <DependentUpon>frmInicio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio\frmInicio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mGlobal.vb" />
+    <Compile Include="Turnos\frmImprimirTurno.Designer.vb">
+      <DependentUpon>frmImprimirTurno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Turnos\frmImprimirTurno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Turnos\frmAsignar.Designer.vb">
+      <DependentUpon>frmAsignar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Turnos\frmAsignar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Turnos\frmImprimirDia.Designer.vb">
+      <DependentUpon>frmImprimirDia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Turnos\frmImprimirDia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Turnos\frmTurnos.Designer.vb">
+      <DependentUpon>frmTurnos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Turnos\frmTurnos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vales\frmImprimirSF.Designer.vb">
+      <DependentUpon>frmImprimirSF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vales\frmImprimirSF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vales\frmDescargaParcial.Designer.vb">
+      <DependentUpon>frmDescargaParcial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vales\frmDescargaParcial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vales\frmSerie.Designer.vb">
+      <DependentUpon>frmSerie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vales\frmSerie.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vales\frmSeries.Designer.vb">
+      <DependentUpon>frmSeries.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vales\frmSeries.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vales\frmDescargar.Designer.vb">
+      <DependentUpon>frmDescargar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vales\frmDescargar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vales\frmEmitir.Designer.vb">
+      <DependentUpon>frmEmitir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vales\frmEmitir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Acceso\frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Acceso\frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.vb">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Navegacion\clsFabricaFormularios.vb" />
+    <Compile Include="Navegacion\clsFormulario.vb" />
+    <Compile Include="Navegacion\clsGestorFormularios.vb" />
+    <Compile Include="Navegacion\enFormulario.vb" />
+    <Compile Include="Navegacion\frmLoading.Designer.vb">
+      <DependentUpon>frmLoading.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Navegacion\frmLoading.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vales\frmImprimir.Designer.vb">
+      <DependentUpon>frmImprimir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vales\frmImprimir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Acceso\frmCambiarContraseña.resx">
+      <DependentUpon>frmCambiarContraseña.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Acceso\frmImprimirTarjeta.resx">
+      <DependentUpon>frmImprimirTarjeta.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Acceso\frmUsuario.resx">
+      <DependentUpon>frmUsuario.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Acceso\frmNuevoUsuario.resx">
+      <DependentUpon>frmNuevoUsuario.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Acceso\frmUsuarios.resx">
+      <DependentUpon>frmUsuarios.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Backups\frmBackup.resx">
+      <DependentUpon>frmBackup.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bitacoras\frmBitacoras.resx">
+      <DependentUpon>frmBitacoras.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bitacoras\frmBuscarVale.resx">
+      <DependentUpon>frmBuscarVale.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes\frmClientes.resx">
+      <DependentUpon>frmClientes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes\frmNuevoCliente.resx">
+      <DependentUpon>frmNuevoCliente.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes\frmCliente.resx">
+      <DependentUpon>frmCliente.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Combustibles\frmCombustibles.resx">
+      <DependentUpon>frmCombustibles.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuracion\frmConfigurar.resx">
+      <DependentUpon>frmConfigurar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controles\ctrlAyuda.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ctrlAyuda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controles\ctrlBotonMenu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ctrlBotonMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controles\ctrlCategoriaMenu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ctrlCategoriaMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controles\ctrlInformacion.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ctrlInformacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controles\ctrlMensaje.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ctrlMensaje.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controles\ctrlMenu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ctrlMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuentas\frmMovimientos.resx">
+      <DependentUpon>frmMovimientos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuentas\frmCuenta.resx">
+      <DependentUpon>frmCuenta.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estadisticas\frmEstadisticas.resx">
+      <DependentUpon>frmEstadisticas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio\frmInicio.resx">
+      <DependentUpon>frmInicio.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Turnos\frmImprimirTurno.resx">
+      <DependentUpon>frmImprimirTurno.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Turnos\frmAsignar.resx">
+      <DependentUpon>frmAsignar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Turnos\frmImprimirDia.resx">
+      <DependentUpon>frmImprimirDia.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Turnos\frmTurnos.resx">
+      <DependentUpon>frmTurnos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vales\frmImprimirSF.resx">
+      <DependentUpon>frmImprimirSF.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vales\frmDescargaParcial.resx">
+      <DependentUpon>frmDescargaParcial.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vales\frmSerie.resx">
+      <DependentUpon>frmSerie.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vales\frmSeries.resx">
+      <DependentUpon>frmSeries.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vales\frmDescargar.resx">
+      <DependentUpon>frmDescargar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vales\frmEmitir.resx">
+      <DependentUpon>frmEmitir.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Acceso\frmLogin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Navegacion\frmLoading.resx">
+      <DependentUpon>frmLoading.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vales\frmImprimir.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmImprimir.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Acceso\Acceso.vbproj">
+      <Project>{75BBB640-FFF3-4A34-970A-50BDA87E67EF}</Project>
+      <Name>Acceso</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bitacoras\Bitacoras.vbproj">
+      <Project>{E6F948CF-093F-4E5D-85F0-D54D82A27A2D}</Project>
+      <Name>Bitacoras</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CopiasDeRespaldo\CopiasDeRespaldo.vbproj">
+      <Project>{4BD283D0-73EA-401A-88A8-47A9C306AAE7}</Project>
+      <Name>CopiasDeRespaldo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entidades\Entidades.vbproj">
+      <Project>{7FEE5920-F961-488F-854C-E925444AC3C2}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Excepciones\myExcepciones.vbproj">
+      <Project>{5D199E62-E86E-4277-9C07-19B7DB0EE424}</Project>
+      <Name>myExcepciones</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ReglasNegocio\ReglasNegocio.vbproj">
+      <Project>{777A7DD3-8660-413E-B975-5845E3079642}</Project>
+      <Name>ReglasNegocio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Validacion\Validacion.vbproj">
+      <Project>{4307C297-B1B7-416F-8B36-6ADD6BEC9DFA}</Project>
+      <Name>Validacion</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuerpo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\extrirotumb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\acceptvertumb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\errorcirrotumb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ayuaztumb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\infoaztumb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\userrotumb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\useraztumb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\DataSources\Entidades.Acceso.iUsuario.datasource" />
+    <None Include="My Project\DataSources\Entidades.Bitacoras.iBitacora.datasource" />
+    <None Include="Resources\userceramro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\userromed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\userazmed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llavenar30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\useraz30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\DataSources\Entidades.Clientes.iCliente.datasource" />
+    <None Include="Resources\userro30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cliro50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cliaz50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cliaz30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cliro30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estadisticas50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nafver50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monam50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cajgri50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monam30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\DataSources\Entidades.Cuentas.iMovimiento.datasource" />
+    <None Include="Resources\nafver30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\DataSources\Entidades.Cuentas.iDisponibilidadCombustible.datasource" />
+    <None Include="Resources\inoutver30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inoutver50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\DataSources\Entidades.Combustibles.iCombustible.datasource" />
+    <None Include="Resources\cajgri30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\DataSources\CopiasDeRespaldo.clsBackup.datasource" />
+    <None Include="My Project\DataSources\Entidades.CopiasDeRespaldo.iBackup.datasource" />
+    <None Include="My Project\DataSources\Entidades.Turnos.iTurno.datasource" />
+    <None Include="My Project\DataSources\Entidades.Turnos.iTurnoActual.datasource" />
+    <None Include="My Project\DataSources\Entidades.Vales.iDescarga.datasource" />
+    <None Include="My Project\DataSources\Entidades.Vales.iSerie.datasource" />
+    <None Include="Resources\descargado.png" />
+    <None Include="Resources\vencido.png" />
+    <None Include="Resources\reportado copy.png" />
+    <None Include="Resources\incorrecto.png" />
+    <None Include="Resources\impraz30.png" />
+    <None Include="Resources\robo30.png" />
+    <None Include="Resources\calemarr50.png" />
+    <None Include="Resources\Encabezado.png" />
+    <None Include="Resources\database30.png" />
+    <None Include="Resources\llavenar30tach.png" />
+    <None Include="Resources\card30.png" />
+    <None Include="Resources\Encabezadolm.png" />
+    <None Include="Resources\Encabezadosf.png" />
+    <Content Include="siv.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

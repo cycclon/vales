@@ -1,0 +1,10 @@
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\Excepciones\bin\Debug\myExcepciones.dll
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\Excepciones\bin\Debug\myExcepciones.pdb
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\Excepciones\bin\Debug\myExcepciones.xml
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\Excepciones\obj\Debug\Excepciones.Resources.resources
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\Excepciones\obj\Debug\myExcepciones.vbproj.GenerateResource.Cache
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\Excepciones\obj\Debug\myExcepciones.dll
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\Excepciones\obj\Debug\myExcepciones.xml
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\Excepciones\obj\Debug\myExcepciones.pdb
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\Excepciones\obj\Debug\myExcepciones.vbproj.AssemblyReference.cache
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\Excepciones\obj\Debug\myExcepciones.vbproj.CoreCompileInputs.cache

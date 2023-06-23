@@ -1,0 +1,67 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AccesoADatos
+</name>
+</assembly>
+<members>
+<member name="P:AccesoADatos.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:AccesoADatos.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso con establecimiento inflexible de tipos.
+</summary>
+</member><member name="T:AccesoADatos.My.Resources.Resources">
+	<summary>
+  Clase de recurso con establecimiento inflexible de tipos, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="M:AccesoADatos.Tablas.clsTablas.ObtenerClave(AccesoADatos.enBDs,System.String)">
+	<summary>
+ Funcion para obtener un valor de clave para una tabla.
+ </summary>
+	<param name="prTabla">Tabla para la que se necesita un valor de clave.</param>
+	<returns>Cadena con el valor de clave.</returns>
+	<remarks></remarks>
+</member><member name="M:AccesoADatos.Tablas.clsTablas.ObtenerUltimaClave(AccesoADatos.enBDs,System.String)">
+	<summary>
+ Devuelve la ultima clave para una tabla con clave numerica
+ </summary>
+	<param name="prTabla">Nombre de la tabla</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AccesoADatos.clsAccesoBD.EjecutarComando(System.Object)">
+	<summary>
+ Ejecuta un comando que no devuelve una consulta
+ </summary>
+	<param name="prComando">Comando a ejecutar</param>
+	<remarks></remarks>
+</member><member name="M:AccesoADatos.clsAccesoBD.EjecutarConsulta(System.Object)">
+	<summary>
+ Ejecuta una consulta
+ </summary>
+	<param name="prComando">Comando a ejecutar</param>
+	<returns>DataSet</returns>
+	<remarks></remarks>
+</member><member name="M:AccesoADatos.clsAccesoBD.EjecutarTransaccion(System.Collections.Generic.List{System.Data.SqlClient.SqlCommand})">
+	<summary>
+ Ejecuta un grupo de comandos en una transaccion
+ </summary>
+	<param name="prComandos">Lista de comandos</param>
+	<remarks></remarks>
+</member><member name="M:AccesoADatos.clsAccesoBD.Conectar">
+	<summary>
+ Conecta con la base de datos
+ </summary>
+	<remarks></remarks>
+</member><member name="M:AccesoADatos.clsAccesoBD.Desconectar">
+	<summary>
+ Desconecta de la base de datos
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

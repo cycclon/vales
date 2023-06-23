@@ -1,0 +1,10 @@
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\Validacion\bin\Debug\Validacion.dll
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\Validacion\bin\Debug\Validacion.pdb
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\Validacion\bin\Debug\Validacion.xml
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\Validacion\obj\Debug\Validacion.Resources.resources
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\Validacion\obj\Debug\Validacion.vbproj.GenerateResource.Cache
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\Validacion\obj\Debug\Validacion.dll
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\Validacion\obj\Debug\Validacion.xml
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\Validacion\obj\Debug\Validacion.pdb
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\Validacion\obj\Debug\Validacion.vbproj.AssemblyReference.cache
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\Validacion\obj\Debug\Validacion.vbproj.CoreCompileInputs.cache

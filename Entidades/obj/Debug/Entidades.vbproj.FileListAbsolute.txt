@@ -1,0 +1,10 @@
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\Entidades\bin\Debug\Entidades.dll
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\Entidades\bin\Debug\Entidades.pdb
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\Entidades\bin\Debug\Entidades.xml
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\Entidades\obj\Debug\Entidades.Resources.resources
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\Entidades\obj\Debug\Entidades.vbproj.GenerateResource.Cache
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\Entidades\obj\Debug\Entidades.dll
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\Entidades\obj\Debug\Entidades.xml
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\Entidades\obj\Debug\Entidades.pdb
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\Entidades\obj\Debug\Entidades.vbproj.AssemblyReference.cache
+E:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\Entidades\obj\Debug\Entidades.vbproj.CoreCompileInputs.cache

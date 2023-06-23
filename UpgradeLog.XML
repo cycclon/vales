@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ValesRefinor">
+</Property><Property Name="Archivo de la solución" Value="D:\Documentos\Proyectos\Refinor\Sistema\ValesRefinor\ValesRefinor.sln">
+</Property><Property Name="Date" Value="Sábado, 20 de Junio de 2009">
+</Property><Property Name="Time" Value="22:52 p.m.">
+</Property></Properties><Event ErrorLevel="0" Project="ValesRefinor" Source="ValesRefinor\ValesRefinor.vbproj" Description="Proyecto convertido correctamente">
+</Event><Event ErrorLevel="3" Project="ValesRefinor" Source="ValesRefinor\ValesRefinor.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TextBoxValidate" Source="..\..\..\VacaSoft\Sistema\TextBoxValidate\TextBoxValidate.vbproj" Description="Proyecto convertido correctamente">
+</Event><Event ErrorLevel="3" Project="TextBoxValidate" Source="..\..\..\VacaSoft\Sistema\TextBoxValidate\TextBoxValidate.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AccesoADatos" Source="AccesoADatos\AccesoADatos.vbproj" Description="Proyecto convertido correctamente">
+</Event><Event ErrorLevel="3" Project="AccesoADatos" Source="AccesoADatos\AccesoADatos.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ReglasNegocio" Source="ReglasNegocio\ReglasNegocio.vbproj" Description="Proyecto convertido correctamente">
+</Event><Event ErrorLevel="3" Project="ReglasNegocio" Source="ReglasNegocio\ReglasNegocio.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Excepciones" Source="Excepciones\Excepciones.vbproj" Description="Proyecto convertido correctamente">
+</Event><Event ErrorLevel="3" Project="Excepciones" Source="Excepciones\Excepciones.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Acceso" Source="Acceso\Acceso.vbproj" Description="Proyecto convertido correctamente">
+</Event><Event ErrorLevel="3" Project="Acceso" Source="Acceso\Acceso.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Entidades" Source="Entidades\Entidades.vbproj" Description="Proyecto convertido correctamente">
+</Event><Event ErrorLevel="3" Project="Entidades" Source="Entidades\Entidades.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Validacion" Source="Validacion\Validacion.vbproj" Description="Proyecto convertido correctamente">
+</Event><Event ErrorLevel="3" Project="Validacion" Source="Validacion\Validacion.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Bitacoras" Source="Bitacoras\Bitacoras.vbproj" Description="Proyecto convertido correctamente">
+</Event><Event ErrorLevel="3" Project="Bitacoras" Source="Bitacoras\Bitacoras.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CopiasDeRespaldo" Source="CopiasDeRespaldo\CopiasDeRespaldo.vbproj" Description="Proyecto convertido correctamente">
+</Event><Event ErrorLevel="3" Project="CopiasDeRespaldo" Source="CopiasDeRespaldo\CopiasDeRespaldo.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ValesRefinor.sln" Description="La solución se convirtió correctamente">
+</Event><Event ErrorLevel="3" Project="" Source="ValesRefinor.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ValesRefinor" Source="ValesRefinor\ValesRefinor.vbproj" Description="Examen completo: no es necesario actualizar los archivos de proyecto.">
+</Event><Event ErrorLevel="0" Project="TextBoxValidate" Source="..\..\..\VacaSoft\Sistema\TextBoxValidate\TextBoxValidate.vbproj" Description="Examen completo: no es necesario actualizar los archivos de proyecto.">
+</Event><Event ErrorLevel="0" Project="AccesoADatos" Source="AccesoADatos\AccesoADatos.vbproj" Description="Examen completo: no es necesario actualizar los archivos de proyecto.">
+</Event><Event ErrorLevel="0" Project="ReglasNegocio" Source="ReglasNegocio\ReglasNegocio.vbproj" Description="Examen completo: no es necesario actualizar los archivos de proyecto.">
+</Event><Event ErrorLevel="0" Project="Excepciones" Source="Excepciones\Excepciones.vbproj" Description="Examen completo: no es necesario actualizar los archivos de proyecto.">
+</Event><Event ErrorLevel="0" Project="Acceso" Source="Acceso\Acceso.vbproj" Description="Examen completo: no es necesario actualizar los archivos de proyecto.">
+</Event><Event ErrorLevel="0" Project="Entidades" Source="Entidades\Entidades.vbproj" Description="Examen completo: no es necesario actualizar los archivos de proyecto.">
+</Event><Event ErrorLevel="0" Project="Validacion" Source="Validacion\Validacion.vbproj" Description="Examen completo: no es necesario actualizar los archivos de proyecto.">
+</Event><Event ErrorLevel="0" Project="Bitacoras" Source="Bitacoras\Bitacoras.vbproj" Description="Examen completo: no es necesario actualizar los archivos de proyecto.">
+</Event><Event ErrorLevel="0" Project="CopiasDeRespaldo" Source="CopiasDeRespaldo\CopiasDeRespaldo.vbproj" Description="Examen completo: no es necesario actualizar los archivos de proyecto.">
+</Event></UpgradeLog>
